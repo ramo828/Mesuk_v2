@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="configPanel" prefHeight="246.0" prefWidth="310.0" styleClass="mainFxmlClass" stylesheets="@../css/config.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfigController">
+   <children>
+      <TextField id="server_tf" fx:id="server_tf" layoutX="25.0" layoutY="24.0" prefHeight="24.0" prefWidth="265.0" promptText="SERVER" styleClass="mainFxmlClass" stylesheets="@../css/config.css" />
+      <TextField id="port_tf" fx:id="port" layoutX="25.0" layoutY="65.0" prefHeight="24.0" prefWidth="265.0" promptText="PORT" styleClass="mainFxmlClass" stylesheets="@../css/config.css" />
+      <TextField id="db_name" fx:id="db_name" layoutX="25.0" layoutY="105.0" prefHeight="24.0" prefWidth="265.0" promptText="DATABASE NAME" styleClass="mainFxmlClass" stylesheets="@../css/config.css" />
+      <TextField id="table_name" fx:id="table_name" layoutX="25.0" layoutY="187.0" prefHeight="24.0" prefWidth="265.0" promptText="TABLE NAME" styleClass="mainFxmlClass" stylesheets="@../css/config.css" />
+      <TextField id="db_pass" fx:id="db_pass" layoutX="23.0" layoutY="146.0" prefHeight="36.0" prefWidth="271.0" promptText="DATABASE PASSWORD" styleClass="mainFxmlClass" stylesheets="@../css/config.css" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="20.0" />
+      <ImageView disable="true" fitHeight="282.0" fitWidth="310.0" opacity="0.64" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../res/config_background.png.png" />
+         </image>
+      </ImageView>
+      <Button id="config_button" fx:id="config_button" layoutX="190.0" layoutY="236.0" mnemonicParsing="false" onAction="#conf_button" styleClass="mainFxmlClass" stylesheets="@../css/config.css" text="Qeyd et" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    #statusbar {
+        -fx-font-weight: bold;
+        -fx-font-size: 30px;
+        -fx-stroke-color: green;
+
+        -fx-text-fill: #db5bf7;
+    }
+
+    #reg_button {
+        -fx-stroke-color: green;
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #751c96;;
+        -fx-text-fill: #d89eee
+    }
+    /*TextField Style*/
+
+
+    #login_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+    #pass_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+    #try_pass_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+    #name_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+    #surname_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+     #number_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+     #email_f {
+        -fx-font-weight: bold;
+        -fx-font-size: 14px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+    }
+    #sex_c {
+        -fx-font-weight: bold;
+        -fx-font-size: 16px;
+        -fx-background-color: #ae35db;
+        -fx-text-fill: #f5e9f9
+
+    }
+}

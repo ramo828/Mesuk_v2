@@ -1,0 +1,54 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    #configPanel {
+        -fx-font-weight:bold;
+        -fx-font-size:14pt;
+        -fx-text-fill:lightgrey;
+        -fx-background-color: darkgray;
+
+    }
+
+    #server_tf {
+        -fx-font-weight:bold;
+
+        -fx-text-fill:#e10b15;
+        -fx-prompt-text-fill: violet;
+        -fx-background-color: gray
+    }
+    #port_tf {
+        -fx-text-fill:#e10b15;
+        -fx-prompt-text-fill: violet;
+        -fx-font-weight:bold;
+
+        -fx-background-color: gray
+    }
+    #db_name {
+        -fx-text-fill:#e10b15;
+        -fx-prompt-text-fill: violet;
+        -fx-font-weight:bold;
+
+        -fx-background-color: gray
+    }
+    #db_pass {
+        -fx-text-fill:#e10b15;
+        -fx-prompt-text-fill: violet;
+        -fx-font-weight:bold;
+        -fx-background-color: gray
+    }
+    #table_name {
+        -fx-text-fill:#e10b15;
+        -fx-prompt-text-fill: violet;
+        -fx-font-weight:bold;
+        -fx-background-color: gray
+    }
+    #config_button {
+        -fx-text-fill:lightgray;
+        -fx-font-weight:bold;
+
+        -fx-background-color: darkgray
+
+    }
+}

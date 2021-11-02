@@ -1,0 +1,22 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    #mesaj {
+        -fx-font-weight:bold;
+        -fx-font-size:20pt;
+        -fx-text-fill: #f9290b;
+        -fx-alignment: center ;
+    }
+    #AnchorPane {
+        -fx-background-color:#addcdf;
+    }
+    #button {
+        -fx-font-weight: bold;
+
+        -fx-background-color: #1b6698;
+        -fx-font-size: 14pt;
+        -fx-text-fill:darkgray
+    }
+}

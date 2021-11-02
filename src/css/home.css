@@ -1,0 +1,49 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    #plane {
+        -fx-background-color: #7696ab
+    }
+    #login_bt {
+        -fx-background-color: #1b6698;
+        -fx-font-size: 14pt;
+        -fx-text-fill:darkgray
+
+    }
+    #reg_button {
+        -fx-background-color: darkcyan;
+        -fx-font-size: 14pt;
+        -fx-text-fill:darkgray
+
+    }
+    #statusbar {
+        -fx-opacity: 1;
+        -fx-font-size: 15pt;
+        -fx-text-fill:#f9ab91
+    }
+    #pass_show {
+        -fx-font-weight: bold;
+
+        -fx-text-fill: #5996cd
+    }
+    #login_tf {
+        -fx-text-fill: #653caf;
+
+        -fx-background-color: #5996cd;
+    }
+    #pass1 {
+        -fx-text-fill: #653caf;
+        -fx-background-color: #5996cd
+    }
+    #pass {
+        -fx-background-color: #5996cd
+    }
+    #author {
+        -fx-font-size: 13pt;
+        -fx-font-weight: bold;
+        -fx-opacity: 0.35;
+        -fx-text-fill:#653caf
+    }
+}
